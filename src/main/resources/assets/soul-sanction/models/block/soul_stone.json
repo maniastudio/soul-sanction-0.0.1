@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "soul-sanction:block/soul_stone_top",
+    "bottom": "soul-sanction:block/soul_stone_bottom",
+    "side": "soul-sanction:block/soul_stone_side"
+  }
+}

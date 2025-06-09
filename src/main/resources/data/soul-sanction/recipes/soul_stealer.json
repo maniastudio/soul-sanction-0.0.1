@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:diamond_sword" },
+    { "item": "soul-sanction:soul_ingot" }
+  ],
+  "result": {
+    "item": "soul-sanction:soul_stealer",
+    "count": 1
+  }
+}

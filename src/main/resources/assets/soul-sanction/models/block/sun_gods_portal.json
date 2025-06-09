@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "soul-sanction:block/sun_gods_portal_bottom",
+    "up": "soul-sanction:block/sun_gods_portal_top",
+    "north": "soul-sanction:block/sun_gods_portal_side",
+    "south": "soul-sanction:block/sun_gods_portal_side",
+    "east": "soul-sanction:block/sun_gods_portal_side",
+    "west": "soul-sanction:block/sun_gods_portal_side"
+  }
+}

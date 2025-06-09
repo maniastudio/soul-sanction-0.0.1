@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "soulsanction",
+	"version": "0.0.1",
+	"name": "Soul Sanction",
+	"description": "this is a mod about the stealth side of the soul idea and the voidin realm (for server purposes)!",
+	"authors": [
+		"https://modrinth.com/user/wofbro205",
+		"https://modrinth.com/user/awertsanko"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/soul-sanction/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"popmania.soulsanction.SoulSanction"
+		],
+		"fabric-datagen": [
+			"popmania.soulsanction.SoulSanctionDataGenerator"
+		]
+	},
+	"mixins": [
+		"soul-sanction.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"sugar rush and another soul theme mod soulmade": "*"
+	}
+}

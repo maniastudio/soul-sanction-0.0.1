@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:glowstone_dust" },
+    { "item": "minecraft:amethyst_shard" }
+  ],
+  "result": {
+    "item": "soul-sanction:soul_powder",
+    "count": 15
+  }
+}
