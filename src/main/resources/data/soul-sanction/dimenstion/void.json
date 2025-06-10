@@ -1,0 +1,18 @@
+{
+  "type": "soul-sanction:voidin_realm",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "soul-sanction:voidin_void",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 0,
+          "block": "soul-sanction:soul_stone"
+        }
+      ],
+      "structure_overrides": "soul-sanction:void_monlith"
+    }
+  }
+}
