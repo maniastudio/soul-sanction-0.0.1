@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "soul-sanction:start_pool",
+  "size": 1,
+  "start_height": { "absolute": 116 },
+  "max_distance_from_center": 80,
+  "biomes": "soul-sanction:voidin_void",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "use_expansion_hack": false
+}

@@ -3,6 +3,8 @@
   "item.soul-sanction.soul_ingot": "Soul Ingot",
   "item.soul-sanction.soul_stealer": "Soul Stealer",
   "block.soul-sanction.soul_stone": "Void Stone",
+  "block.soul-sanction.voidin_supprestion": "Voidin Supprestion",
   "block.soul-sanction.sun_gods_portal": "SGP",
-  "item.soul-sanction.soul_powder": "Soul Powder"
+  "item.soul-sanction.soul_powder": "Soul Powder",
+  item.soul-sanction.voidin_suppresion: "Soul Powder"
 }

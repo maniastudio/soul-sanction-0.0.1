@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "soul-sanction:void_monolith",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 18,
+    "spread_type": "linear",
+    "salt": 0,
+    "frequency_reduction_method": "default"
+  }
+}

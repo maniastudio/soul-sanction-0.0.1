@@ -1,5 +1,5 @@
 {
-  "type": "soul-sanction:voidin_realm",
+  "type": "soul-sanction:void_type",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
@@ -8,11 +8,10 @@
       "features": false,
       "layers": [
         {
-          "height": 0,
+          "height": 180,
           "block": "soul-sanction:soul_stone"
         }
-      ],
-      "structure_overrides": "soul-sanction:void_monlith"
+      ]
     }
   }
 }

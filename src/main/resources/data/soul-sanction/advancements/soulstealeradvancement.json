@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "soul-sanction:soul_stealer"
+    },
+    "title": {
+      "text": "there will be consequences",
+      "font": "minecraft:default",
+      "bold": false,
+      "italic": false,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "text": "A SOUL FOR A SOUL!",
+      "font": "minecraft:default"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wwww": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "soul-sanction.soul_powder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wwww"
+    ]
+  ]
+}

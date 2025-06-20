@@ -7,7 +7,7 @@ import net.minecraft.item.Item;
 
 public class SoulStealerItem extends SwordItem {
     public SoulStealerItem(ToolMaterial material, FabricItemSettings fabricItemSettings) {
-        super(material, 5, -2.4F, new Item.Settings());
+        super(material, 5, -3F, new Item.Settings());
         // 5 extra + 4 from material = 9 total (adjust material as needed)
     }
 

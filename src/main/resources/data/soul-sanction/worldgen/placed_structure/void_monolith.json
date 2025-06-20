@@ -1,0 +1,13 @@
+{
+  "feature": "soul-sanction:void_monolith",
+  "placement": [
+    {
+      "type": "minecraft:random_spread",
+      "spacing": 200,
+      "separation": 200,
+      "salt": 1234567
+    },
+    { "type": "minecraft:heightmap", "heightmap": "WORLD_SURFACE_WG" },
+    { "type": "minecraft:biome" }
+  ]
+}
