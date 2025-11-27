@@ -26,14 +26,14 @@ import popmania.soulsanction.items.VoidinSuppressionItem;
 public class SoulSanction implements ModInitializer {
 	public static final String MOD_ID = "soul-sanction";
 
-	// Items
+
 	public static final Item VOID_SHARD = new Item(new FabricItemSettings());
 	public static final Item SOUL_INGOT = new Item(new FabricItemSettings());
 	public static final Item SOUL_POWDER = new Item(new FabricItemSettings());
 	public static final Item SOUL_STEALER = new SoulStealerItem(ToolMaterials.NETHERITE, new FabricItemSettings());
 	public static final Item VOIDIN_SUPPRESSION = new VoidinSuppressionItem(new FabricItemSettings().maxCount(1));
 
-	// Blocks
+
 	public static final Block SOUL_STONE = new Block(
 			AbstractBlock.Settings.copy(Blocks.BEDROCK).strength(-1.0F, 3600000.0F).dropsNothing());
 	public static final Item SOUL_STONE_ITEM = new BlockItem(SOUL_STONE, new FabricItemSettings());
@@ -42,7 +42,7 @@ public class SoulSanction implements ModInitializer {
 			AbstractBlock.Settings.copy(Blocks.OBSIDIAN).strength(50.0f, 1200.0f).nonOpaque());
 	public static final Item SUN_GODS_PORTAL_ITEM = new BlockItem(SUN_GODS_PORTAL, new FabricItemSettings());
 
-	// Item Group
+	
 	public static final ItemGroup SOUL_SANCTION_GROUP = FabricItemGroup.builder()
 			.icon(() -> new ItemStack(SOUL_INGOT))
 			.displayName(Text.literal("Soul Sanction"))
@@ -62,24 +62,24 @@ public class SoulSanction implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// Register Items
+
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "void_shard"), VOID_SHARD);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "soul_ingot"), SOUL_INGOT);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "soul_powder"), SOUL_POWDER);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "soul_stealer"), SOUL_STEALER);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "voidin_suppression"), VOIDIN_SUPPRESSION);
 
-		// Register Blocks
+		
 		Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "soul_stone"), SOUL_STONE);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "soul_stone"), SOUL_STONE_ITEM);
 
 		Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "sun_gods_portal"), SUN_GODS_PORTAL);
 		Registry.register(Registries.ITEM, new Identifier(MOD_ID, "sun_gods_portal"), SUN_GODS_PORTAL_ITEM);
 
-		// Register Item Group
+	
 		Registry.register(Registries.ITEM_GROUP, new Identifier(MOD_ID, "soul_sanction_tab"), SOUL_SANCTION_GROUP);
 
-		// Handle Voidin Suppression Death Logic
+	
 		ServerLivingEntityEvents.AFTER_DEATH.register((entity, source) -> {
 			if (entity instanceof ServerPlayerEntity victim) {
 				if (source.getAttacker() instanceof ServerPlayerEntity attacker) {
